@@ -1,0 +1,1 @@
+export { default } from "file:///home/usuario/Proyectos/2025/vocali-pruebaTec/mi-front/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

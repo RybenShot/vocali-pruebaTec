@@ -1,0 +1,16 @@
+### bienbenida
+GET http://localhost:1234
+
+### get transcripciones
+GET http://localhost:1234/transcripcions/user_2ylUzcKbdR6ywcKB57VQ72NU9KL
+
+### post transcripciones
+POST http://localhost:1234/transcripcions
+Content-Type: application/json
+
+{
+    "idUser": "usuario123",
+    "transcripcion": "Esta es otra transcripcion distinta",
+    "tags": ["traumatologia", "pediatria", "neurologia", "otro"],
+    "lenguaje": "es"
+}
